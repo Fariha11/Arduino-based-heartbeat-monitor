@@ -42,9 +42,9 @@ void loop() {
       {
         HBCheck = 0;   
       }
-      if(TimeinSec == 10)
+      if(TimeinSec == 15)
       {
-          HBperMin = HBCount * 6;
+          HBperMin = HBCount * 4;
           HBStartCheck = 0;
           lcd.setCursor(14,2);
           lcd.print(HBperMin);
